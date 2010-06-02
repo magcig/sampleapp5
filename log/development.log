@@ -152,3 +152,483 @@ ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.cs
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:07:33) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.7ms)
+Rendered layouts/_footer (1.1ms)
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:07:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about_path (for 127.0.0.1 at 2010-06-03 01:07:35) [GET]
+
+ActionController::UnknownAction (No action responded to about_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact_path (for 127.0.0.1 at 2010-06-03 01:07:41) [GET]
+
+ActionController::UnknownAction (No action responded to contact_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about_path (for 127.0.0.1 at 2010-06-03 01:08:50) [GET]
+
+ActionController::UnknownAction (No action responded to about_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about_path (for 127.0.0.1 at 2010-06-03 01:08:53) [GET]
+
+ActionController::UnknownAction (No action responded to about_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about_path (for 127.0.0.1 at 2010-06-03 01:08:59) [GET]
+
+ActionController::UnknownAction (No action responded to about_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact_path (for 127.0.0.1 at 2010-06-03 01:09:03) [GET]
+
+ActionController::UnknownAction (No action responded to contact_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about_path (for 127.0.0.1 at 2010-06-03 01:09:08) [GET]
+
+ActionController::UnknownAction (No action responded to about_path. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.7ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7fc8d2de3738>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (69.5ms)
+Rendered rescues/_request_and_response (14.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:15:31) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.4ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f90da049b48>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (89.7ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:16:06) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.8ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f90dab6e708>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (65.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:18:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.1ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f90da1f8688>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (130.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:18:34) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.4ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f5acca2fa70>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (65.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:19:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.8ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f5acd56b790>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (65.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:19:40) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.5ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f8030457088>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (65.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:20:17) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.2ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f8030f5f728>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (65.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:24:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.4ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f80306035f8>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (134.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:24:30) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.4ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f7720e2ad80>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (61.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:24:38) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+
+ActionView::TemplateError (undefined local variable or method `help_path' for #<ActionView::Base:0x7f7721930770>) on line #5 of app/views/layouts/_header.html.erb:
+2:   <%= image_tag("logo.png", :alt => "Sample App", :class => "round") %>
+3:   <ul class="navigation round">
+4:     <li><%= link_to "Home", root_path %></li>
+5:     <li><%= link_to "Help", help_path %></li>
+6:     <li><%= link_to "Sign in", '#' %></li>
+7:   </ul>
+8: </div>
+
+    app/views/layouts/_header.html.erb:5
+    app/views/layouts/application.html.erb:10
+
+Rendered rescues/_trace (64.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:30:25) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (1.3ms)
+
+ActionView::TemplateError (undefined local variable or method `about_path' for #<ActionView::Base:0x7f7720fd7318>) on line #3 of app/views/layouts/_footer.html.erb:
+1: <div id="footer">
+2:   <ul class="navigation round">
+3:     <li><%= link_to "About", about_path %></li>
+4:     <li><%= link_to "Contact", contact_path %></li>
+5:     <li><a href="http://news.railstutorial.org/">News</a></li>
+6:     <li><a href="http://www.railstutorial.org/">Rails Tutorial</a></li>
+
+    app/views/layouts/_footer.html.erb:3
+    app/views/layouts/application.html.erb:14
+
+Rendered rescues/_trace (69.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:33:58) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (1.3ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:33:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-03 01:34:01) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 01:34:03) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.6ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:34:06) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:09) [GET]
+
+ActionController::RoutingError (No route matches "/help_path" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:44) [GET]
+
+ActionController::RoutingError (No route matches "/help_path" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:34:48) [GET]
+
+ActionController::RoutingError (No route matches "/help_path" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:35:21) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (1.2ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:35:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-06-03 01:35:24) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.7ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/help]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:35:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-03 01:35:26) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (0.6ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 01:35:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
