@@ -36,3 +36,119 @@ Processing PagesController#about (for 127.0.0.1 at 2010-06-02 21:46:06) [GET]
 Rendering template within layouts/application
 Rendering pages/about
 Completed in 25ms (View: 22, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-02 23:43:19) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.7ms)
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 23:43:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 23:43:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-02 23:56:36) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.7ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 23:56:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-02 23:56:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.7ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 23:56:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 00:08:56) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 00:08:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 00:09:02) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.7ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 00:09:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 00:11:52) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.8ms)
+Rendered layouts/_header (156.9ms)
+Completed in 179ms (View: 177, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 00:11:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-03 00:18:00) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.7ms)
+Rendered layouts/_footer (0.8ms)
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-03 00:18:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/bluprint/print.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
